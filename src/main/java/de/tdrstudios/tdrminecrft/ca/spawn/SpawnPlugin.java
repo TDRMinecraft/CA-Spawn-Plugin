@@ -1,5 +1,6 @@
 package de.tdrstudios.tdrminecrft.ca.spawn;
 
+import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SpawnPlugin extends JavaPlugin {
@@ -9,6 +10,7 @@ public final class SpawnPlugin extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         setPlugin(this);
+        ConfigUtils.registerAllConfigurations();
 
     }
 
