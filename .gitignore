@@ -112,3 +112,5 @@ buildNumber.properties
 
 # Common working directory
 run/
+.idea/workspace.xml
+.idea/workspace.xml
