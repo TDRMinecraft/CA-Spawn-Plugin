@@ -15,6 +15,9 @@ public class ConfigUtils {
     }
     public static void registerAllConfigurations() {
 
+        registerConfiguration("tdrstudios.spawn.X");
+        registerConfiguration("tdrstudios.spawn.Y");
+        registerConfiguration("tdrstudios.spawn.Z");
 
 
     }
