@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0562b57f-c6a4-472c-92e8-e42476ef349c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SetSpawnCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Prefix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/SpawnPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/SpawnPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/config/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/config/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -38,7 +44,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../GIT/TDRStudios/DiscordSystem-IntelliBahh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Server 1.15.1/plugins" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="SpawnPlugin build" type="MavenRunConfiguration" factoryName="Maven">
@@ -80,5 +89,35 @@
       <updated>1609150031342</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1609173811177">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173811177" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609156227844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609156227844" />
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1609173745882">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173745882" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1609173745881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173745881" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1609173745880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173745880" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1609173745881">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173745881" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1609156292791">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609156292791" />
   </component>
 </project>
