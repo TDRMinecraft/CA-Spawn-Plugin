@@ -74,6 +74,11 @@ public abstract class MyCommand implements CommandExecutor, TabCompleter {
         }
     }
 
+    public List<String> extractTab() {
+        List<String> extract = getTab();
+        return extract;
+    }
+
     /**
      * Sets permission.
      *

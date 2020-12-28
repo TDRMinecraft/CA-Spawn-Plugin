@@ -19,6 +19,8 @@ public class ConfigUtils {
         registerConfiguration("tdrstudios.spawn.Y");
         registerConfiguration("tdrstudios.spawn.Z");
 
+        registerConfiguration("tdrstudios.msg.only.player" , "Diese Aktion kann nur ein Spieler ausfueren!");
+
 
     }
     public static void registerConfiguration(String path) {
@@ -41,13 +43,24 @@ public class ConfigUtils {
         saveConfig();
     }
 
-    public static String getString(String path) throws InvalidConfigurationException {
+    /**
+     *
+     * @param path
+     * @return
+     * @throws InvalidConfigurationException
+     */
+    public static String getString(String path) {
         String r = getConfig().getString(path);
-        if(r != null) {
-            return r;
-        }else {
-            throw new InvalidConfigurationException("The String on path \"" + path + "\" isn´s set in the Configuration!");
+        try {
+            if(r != null) {
+                return r;
+            }else {
+                throw new InvalidConfigurationException("The String on path \"" + path + "\" isn´s set in the Configuration!");
+            }
+        }catch (InvalidConfigurationException e) {
+            e.printStackTrace();
         }
+        return r;
     }
 
 
