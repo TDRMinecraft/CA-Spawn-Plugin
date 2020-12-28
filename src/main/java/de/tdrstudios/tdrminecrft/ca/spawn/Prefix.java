@@ -9,30 +9,16 @@ public class Prefix {
     private static ChatColor Color;
     private static ChatColor ErrorColor;
 
-    static {
-        try {
-            Color = ChatColor.valueOf(ConfigUtils.getString("tdrstudios.color"));
-        } catch (InvalidConfigurationException e) {
-            e.printStackTrace();
-        }
+    public static void load() {
+        Color = ChatColor.valueOf(ConfigUtils.getString("tdrstudios.color.info"));
+        ErrorColor = ChatColor.valueOf(ConfigUtils.getString("tdrstudios.color.error"));
+        prefix = ConfigUtils.getString("tdrstudios.prefix");
     }
 
-    static {
-        try {
-            ErrorColor = ChatColor.valueOf(ConfigUtils.getString("tdrstudios.color.error"));
-        } catch (InvalidConfigurationException e) {
-            e.printStackTrace();
-        }
-    }
+
     private static String prefix;
 
-    static {
-        try {
-            prefix = ConfigUtils.getString("tdrstudios.prefix");
-        }catch (InvalidConfigurationException e)  {
-            e.printStackTrace();
-        }
-    }
+
 
     public static ChatColor getErrorColor() {
         return ErrorColor;
@@ -62,9 +48,10 @@ public class Prefix {
     }
 
     public static void register() {
-        ConfigUtils.registerConfiguration("tdrstudios.color" , ChatColor.GREEN.name());
+        System.out.println("Prefix.register");
+        ConfigUtils.registerConfiguration("tdrstudios.color.info" , ChatColor.GREEN.name());
         ConfigUtils.registerConfiguration("tdrstudios.color.error" , ChatColor.RED.name());
-        ConfigUtils.registerConfiguration("tdrstudios.prefix" , "§1[§5Dein§9Server§1] §7: ");
+        ConfigUtils.registerConfiguration("tdrstudios.prefix" , "§1[§3Dein§6Server§1] §7: ");
     }
 
 

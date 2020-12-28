@@ -2,6 +2,7 @@ package de.tdrstudios.tdrminecrft.ca.spawn.config;
 
 import de.tdrstudios.tdrminecrft.ca.spawn.SpawnPlugin;
 
+import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.inventory.ItemStack;
@@ -15,11 +16,16 @@ public class ConfigUtils {
     }
     public static void registerAllConfigurations() {
 
-        registerConfiguration("tdrstudios.spawn.X");
-        registerConfiguration("tdrstudios.spawn.Y");
-        registerConfiguration("tdrstudios.spawn.Z");
+        registerConfiguration("tdrstudios.spawn.X", Bukkit.getWorld("world").getSpawnLocation().getBlockX());
+        registerConfiguration("tdrstudios.spawn.Y", Bukkit.getWorld("world").getSpawnLocation().getBlockY());
+        registerConfiguration("tdrstudios.spawn.Z", Bukkit.getWorld("world").getSpawnLocation().getBlockZ());
+        registerConfiguration("tdrstudios.spawn.world", "world");
 
         registerConfiguration("tdrstudios.msg.only.player" , "Diese Aktion kann nur ein Spieler ausfueren!");
+        registerConfiguration("tdrstudios.msg.setspawn" , "Der Spawnpunkt wurde erfolgreich gesetzt!");
+        registerConfiguration("tdrstudios.msg.noperm" , "Keine Rechte!");
+        registerConfiguration("tdrstudios.msg.teleport.spawn" , "Du wurdest zum Spawn teleportiert!");
+        registerConfiguration("tdrstudios.msg.set.spawn" , "Der Spawn wurde gesetzt!");
 
 
     }
@@ -32,6 +38,8 @@ public class ConfigUtils {
         saveConfig();
     }
     public static void registerConfiguration(String path , Object object) {
+        System.out.println("ConfigUtils.registerConfiguration");
+        System.out.println("path = " + path + ", object = " + object);
         // if(getConfig().isSet(path)) {
         if(getConfig().get(path) != null) {
 
@@ -50,6 +58,8 @@ public class ConfigUtils {
      * @throws InvalidConfigurationException
      */
     public static String getString(String path) {
+        System.out.println("ConfigUtils.getString");
+        System.out.println("path = " + path);
         String r = getConfig().getString(path);
         try {
             if(r != null) {

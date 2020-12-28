@@ -9,3 +9,6 @@ commands:
   spawn:
     description: Teleport to the spawn!
     usage: /spawn <Player>
+  setspawn:
+    description: soon
+    usage: /setspawn
