@@ -6,6 +6,7 @@ import de.tdrstudios.tdrminecrft.ca.spawn.commands.MyCommand;
 import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
+import org.bukkit.Sound;
 import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
@@ -32,6 +33,7 @@ public class SpawnCommand extends MyCommand {
                     spawn.setY(c.getDouble("tdrstudios.spawn.Y"));
                     spawn.setZ(c.getDouble("tdrstudios.spawn.Z"));
                     p.teleport(spawn);
+                    p.playSound(spawn, Sound.AMBIENT_UNDERWATER_ENTER , 30, 3);
                     Chat.send(p, ConfigUtils.getString("tdrstudios.msg.teleport.spawn"));
                 }else {
                     Chat.NoPerm(p);

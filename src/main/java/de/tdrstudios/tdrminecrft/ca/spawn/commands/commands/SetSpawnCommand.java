@@ -36,7 +36,7 @@ public class SetSpawnCommand extends MyCommand {
             Player player = (Player) sender;
             if(player.hasPermission(getPermission())) {
                 Location spawn = player.getLocation();
-                player.playSound(spawn, Sound.AMBIENT_UNDERWATER_EXIT , 30, 2);
+                player.playSound(spawn, Sound.AMBIENT_UNDERWATER_EXIT , 30, 4);
                 c.set("tdrstudios.spawn.X" , spawn.getBlockX());
                 c.set("tdrstudios.spawn.Y", spawn.getY()); // No Block because of Stairs usw
                 c.set("tdrstudios.spawn.Z" , spawn.getBlockZ());
