@@ -1,6 +1,6 @@
 name: SpawnPlugin
 version: ${project.version}
-main: de.tdrstudios.tdrminecrft.ca.spawn.SpawnPlugin
+main: de.tdrstudios.tdrminecraft.ca.spawn.SpawnPlugin
 api-version: 1.15
 authors: [TDRStudios]
 website: https://tdrstudios.de

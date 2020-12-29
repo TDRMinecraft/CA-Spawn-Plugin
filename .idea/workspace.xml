@@ -5,13 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/Prefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/SpawnPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/SpawnPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/MyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/MyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SetSpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/commands/SetSpawnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/commands/SpawnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/config/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/config/ConfigUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -91,13 +85,29 @@
       <option name="presentableId" value="Default" />
       <updated>1609150031342</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rename some files">
+      <created>1609261727664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609261727664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rename some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename some files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1609173811177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609173811177" />
+    <state x="479" y="88" key="CommitChangelistDialog2" timestamp="1609261724324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="479" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261724324" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1609156227844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
