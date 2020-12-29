@@ -22,7 +22,6 @@ public class SpawnCommand extends MyCommand {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(sender instanceof Player) {
             Player p = (Player) sender;
-            Chat.send(p, "Test!");
             FileConfiguration c = ConfigUtils.getConfig();
             if(args.length == 0) {
                 if(p.hasPermission(getPermission())) {
