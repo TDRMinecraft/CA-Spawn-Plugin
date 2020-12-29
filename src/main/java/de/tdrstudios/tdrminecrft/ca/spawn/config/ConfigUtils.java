@@ -27,6 +27,10 @@ public class ConfigUtils {
         registerConfiguration("tdrstudios.msg.teleport.spawn" , "Du wurdest zum Spawn teleportiert!");
         registerConfiguration("tdrstudios.msg.set.spawn" , "Der Spawn wurde gesetzt!");
 
+        registerConfiguration("tdrstudios.msg.notonline" , "%Player% ist nicht Online!");
+        registerConfiguration("tdrstudios.msg.other.tp" , "%Player% wurde zum Spawn geschickt!");
+        registerConfiguration("tdrstudios.msg.other.tpd" , "%Player% hat dich zum Spawn geschickt!");
+
 
     }
     public static void registerConfiguration(String path) {

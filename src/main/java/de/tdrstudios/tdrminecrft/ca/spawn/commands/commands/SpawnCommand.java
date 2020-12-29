@@ -23,22 +23,45 @@ public class SpawnCommand extends MyCommand {
         if(sender instanceof Player) {
             Player p = (Player) sender;
             Chat.send(p, "Test!");
+            FileConfiguration c = ConfigUtils.getConfig();
+            if(args.length == 0) {
+                if(p.hasPermission(getPermission())) {
 
-            if(p.hasPermission(getPermission())) {
-                FileConfiguration c = ConfigUtils.getConfig();
-                Location spawn = new Location(Bukkit.getWorld(ConfigUtils.getString("tdrstudios.spawn.world")) , c.getDouble("tdrstudios.spawn.X") , c.getDouble("tdrstudios.spawn.Y") ,c.getDouble("tdrstudios.spawn.Z"));
-                spawn.setX(c.getDouble("tdrstudios.spawn.X"));
-                spawn.setY(c.getDouble("tdrstudios.spawn.Y"));
-                spawn.setZ(c.getDouble("tdrstudios.spawn.Z"));
-                p.teleport(spawn);
-                Chat.send(p, ConfigUtils.getString("tdrstudios.msg.teleport.spawn"));
+
+                    Location spawn = new Location(Bukkit.getWorld(ConfigUtils.getString("tdrstudios.spawn.world")) , c.getDouble("tdrstudios.spawn.X") , c.getDouble("tdrstudios.spawn.Y") ,c.getDouble("tdrstudios.spawn.Z"));
+                    spawn.setX(c.getDouble("tdrstudios.spawn.X"));
+                    spawn.setY(c.getDouble("tdrstudios.spawn.Y"));
+                    spawn.setZ(c.getDouble("tdrstudios.spawn.Z"));
+                    p.teleport(spawn);
+                    Chat.send(p, ConfigUtils.getString("tdrstudios.msg.teleport.spawn"));
+                }else {
+                    Chat.NoPerm(p);
+                }
+            }else if(args.length == 1) {
+                if(p.hasPermission(getPermission().getName() + ".other")) {
+                    Location spawn = new Location(Bukkit.getWorld(ConfigUtils.getString("tdrstudios.spawn.world")) , c.getDouble("tdrstudios.spawn.X") , c.getDouble("tdrstudios.spawn.Y") ,c.getDouble("tdrstudios.spawn.Z"));
+                    spawn.setX(c.getDouble("tdrstudios.spawn.X"));
+                    spawn.setY(c.getDouble("tdrstudios.spawn.Y"));
+                    spawn.setZ(c.getDouble("tdrstudios.spawn.Z"));
+                    if(Bukkit.getOfflinePlayer(args[0]).isOnline()){
+                        Player t = Bukkit.getPlayer(args[0]);
+                        Chat.send(t, ConfigUtils.getString("tdrstudios.msg.other.tpd").replace("%Player%" , p.getName()));
+                        Chat.send(p, ConfigUtils.getString("tdrstudios.msg.other.tp").replace("%Player%" , t.getName()));
+                        t.teleport(spawn);
+                    }else {
+                    Chat.send(p, ConfigUtils.getString("tdrstudios.msg.notonline").replace("%Player%" , args[0]));
+                    }
+                }else {
+                    Chat.NoPerm(p);
+                }
             }else {
-                Chat.NoPerm(p);
+                return false;
             }
+
         }else {
             sender.sendMessage(Prefix.toPrefix() + ConfigUtils.getString("tdrstudios.msg.only.player"));
         }
-        return false;
+        return true;
     }
 
     @Override
