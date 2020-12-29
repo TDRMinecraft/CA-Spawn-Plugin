@@ -1,6 +1,6 @@
-package de.tdrstudios.tdrminecrft.ca.spawn;
+package de.tdrstudios.tdrminecraft.ca.spawn;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.config.ConfigUtils;
 import org.bukkit.entity.Player;
 
 public class Chat {

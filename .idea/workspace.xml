@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0562b57f-c6a4-472c-92e8-e42476ef349c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SetSpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SetSpawnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/Prefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/Prefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/SpawnPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/SpawnPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/MyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/MyCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SetSpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/commands/SetSpawnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/commands/commands/SpawnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/commands/commands/SpawnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecrft/ca/spawn/config/ConfigUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/tdrstudios/tdrminecraft/ca/spawn/config/ConfigUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,22 +102,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609156227844" />
-    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1609240589012">
+    <state x="784" y="421" key="Github.CreateGistDialog" timestamp="1609261378881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609240589012" />
-    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1609240589011">
+    <state x="784" y="421" key="Github.CreateGistDialog/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261378881" />
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1609261123764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609240589011" />
-    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1609240589011">
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261123764" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1609261123764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609240589011" />
-    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1609240589011">
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261123764" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1609261123763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609240589011" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261123763" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1609261123764">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.75.1920.1040@0.0.1920.1040" timestamp="1609261123764" />
     <state x="440" y="94" key="SettingsEditor" timestamp="1609156292791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,8 +1,8 @@
-package de.tdrstudios.tdrminecrft.ca.spawn.commands.commands;
+package de.tdrstudios.tdrminecraft.ca.spawn.commands.commands;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.Chat;
-import de.tdrstudios.tdrminecrft.ca.spawn.commands.MyCommand;
-import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.commands.MyCommand;
+import de.tdrstudios.tdrminecraft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.Chat;
 import org.bukkit.Location;
 import org.bukkit.Sound;
 import org.bukkit.command.Command;
@@ -10,10 +10,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
-import sun.security.provider.ConfigFile;
 
+import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 public class SetSpawnCommand extends MyCommand {
 
@@ -54,6 +53,8 @@ public class SetSpawnCommand extends MyCommand {
 
     @Override
     public List<String> onTabComplete(CommandSender sender, Command cmd, String alias, String[] args) {
-        return null;
+        List<String> strings = new ArrayList<>();
+        strings.add(" ");
+        return strings;
     }
 }

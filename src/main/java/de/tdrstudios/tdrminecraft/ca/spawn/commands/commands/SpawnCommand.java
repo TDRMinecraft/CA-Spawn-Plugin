@@ -1,16 +1,14 @@
-package de.tdrstudios.tdrminecrft.ca.spawn.commands.commands;
+package de.tdrstudios.tdrminecraft.ca.spawn.commands.commands;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.Chat;
-import de.tdrstudios.tdrminecrft.ca.spawn.Prefix;
-import de.tdrstudios.tdrminecrft.ca.spawn.commands.MyCommand;
-import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.commands.MyCommand;
+import de.tdrstudios.tdrminecraft.ca.spawn.Chat;
+import de.tdrstudios.tdrminecraft.ca.spawn.Prefix;
+import de.tdrstudios.tdrminecraft.ca.spawn.config.ConfigUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Sound;
-import org.bukkit.World;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-import org.bukkit.command.defaults.BukkitCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;

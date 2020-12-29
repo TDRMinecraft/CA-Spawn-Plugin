@@ -1,15 +1,11 @@
-package de.tdrstudios.tdrminecrft.ca.spawn;
+package de.tdrstudios.tdrminecraft.ca.spawn;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.commands.commands.SetSpawnCommand;
-import de.tdrstudios.tdrminecrft.ca.spawn.commands.commands.SpawnCommand;
-import de.tdrstudios.tdrminecrft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.commands.commands.SpawnCommand;
+import de.tdrstudios.tdrminecraft.ca.spawn.config.ConfigUtils;
+import de.tdrstudios.tdrminecraft.ca.spawn.commands.commands.SetSpawnCommand;
 
 import org.bukkit.permissions.Permission;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.lang.reflect.Field;
-import java.util.ArrayList;
-import java.util.List;
 
 public final class SpawnPlugin extends JavaPlugin {
 
@@ -21,6 +17,10 @@ public final class SpawnPlugin extends JavaPlugin {
         ConfigUtils.registerAllConfigurations();
         Prefix.register();
         Prefix.load();
+
+        System.out.println("[TDRStudios]: Dieses Plugin wurde von TDRStudios entwickelt!");
+        System.out.println("Link: https://discord.gg/MPJ8w6ehNM");
+        System.out.println("[TDRStudios]: Dieses Plugin wurde von TDRStudios entwickelt!");
 
         new SpawnCommand(getCommand("spawn"), new Permission("tdrstudios.SpawnPlugin.spawn")).register();
         new SetSpawnCommand(getCommand("setspawn") , new Permission("tdrstudios.SpawnPlugin.setspawn")).register();

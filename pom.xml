@@ -6,7 +6,7 @@
 
     <groupId>de.tdrstudios.tdrminecrft</groupId>
     <artifactId>ca.spawn</artifactId>
-    <version>3.0-DEVELOPMENT</version>
+    <version>1.0-RELEASE</version>
     <packaging>jar</packaging>
 
     <name>SpawnPlugin</name>

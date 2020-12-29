@@ -1,6 +1,6 @@
-package de.tdrstudios.tdrminecrft.ca.spawn.commands;
+package de.tdrstudios.tdrminecraft.ca.spawn.commands;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.SpawnPlugin;
+import de.tdrstudios.tdrminecraft.ca.spawn.SpawnPlugin;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

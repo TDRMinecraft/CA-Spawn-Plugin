@@ -10,5 +10,5 @@ commands:
     description: Teleport to the spawn!
     usage: /spawn <Player>
   setspawn:
-    description: soon
+    description: With this command you can set a spawn!
     usage: /setspawn

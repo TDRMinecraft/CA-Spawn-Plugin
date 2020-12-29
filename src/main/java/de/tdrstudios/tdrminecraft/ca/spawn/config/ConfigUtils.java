@@ -1,11 +1,10 @@
-package de.tdrstudios.tdrminecrft.ca.spawn.config;
+package de.tdrstudios.tdrminecraft.ca.spawn.config;
 
-import de.tdrstudios.tdrminecrft.ca.spawn.SpawnPlugin;
+import de.tdrstudios.tdrminecraft.ca.spawn.SpawnPlugin;
 
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.configuration.file.FileConfiguration;
-import org.bukkit.inventory.ItemStack;
 
 public class ConfigUtils {
     public static FileConfiguration getConfig() {
