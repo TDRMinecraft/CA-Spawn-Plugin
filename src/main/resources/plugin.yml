@@ -9,6 +9,8 @@ commands:
   spawn:
     description: Teleport to the spawn!
     usage: /spawn <Player>
+    permission: tdrstudios.SpawnPlugin.spawn
   setspawn:
     description: With this command you can set a spawn!
     usage: /setspawn
+    permission: tdrstudios.SpawnPlugin.setspawn
